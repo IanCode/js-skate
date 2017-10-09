@@ -1,0 +1,12 @@
+{
+  "name": "late_js",
+  "version": "1.0.0",
+  "description": "Making fun things with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('hey there bucky')"
+    "start": "node index.js"
+  },
+  "author": "Ian White",
+  "license": "ISC"
+}
