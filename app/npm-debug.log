@@ -1,11 +1,7 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node',
-1 verbose cli   '/usr/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '--save',
-1 verbose cli   'handlebars' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'mongodb' ]
 2 info using npm@3.10.10
-3 info using node@v6.11.3
+3 info using node@v6.11.4
 4 silly loadCurrentTree Starting
 5 silly install loadCurrentTree
 6 silly install readLocalPackageData
@@ -23,10 +19,10 @@
 11 verbose stack     at /usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
 11 verbose stack     at tryToString (fs.js:457:3)
 11 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
-12 verbose cwd /home/ian/dev/late_js
-13 error Linux 4.10.0-35-generic
-14 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "handlebars"
-15 error node v6.11.3
+12 verbose cwd /home/ian/dev/late_js/app
+13 error Linux 4.10.0-37-generic
+14 error argv "/usr/bin/node" "/usr/bin/npm" "install" "mongodb"
+15 error node v6.11.4
 16 error npm  v3.10.10
 17 error file /home/ian/dev/late_js/package.json
 18 error code EJSONPARSE

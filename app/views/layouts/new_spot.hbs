@@ -1,53 +1,51 @@
 <html>  
 <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<!--navbar-->
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="signup">Sign Up</a></li>
+  <li><a href="new_spot">Add a new spot</a></li>
+  <li class="divider"></li>
+  <li><a href="gametime1999">Play Game</a></li>
+  <li><a href="about">About</a></li>
+</ul>
+<nav style="background-color:  #2980b9 ">
+  <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><i><img src="/views/layouts/sk8.png" height="90%" align="middle"/></i>
+    </a>
+    <ul class="right hide-on-med-and-down">
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right" style="color: black">more_vert</i></a></li>
+
+    </ul>
+  </div>
+
+</nav>
+
+<body style="background-color: #ecf0f1">
 <p>
   <div class="row">
     <form class="col s12">
       <div class="row">
-        <div class="input-field col s6">
-          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
+        <div class="input-field col s12">
+          <input placeholder="Spot Name" id="spot_name" type="text" class="validate">
+          <label for="Spot Name">Spot Name</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-          <label for="disabled">Disabled</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col s12">
-          This is an inline input field:
-          <div class="input-field inline">
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Email</label>
-          </div>
+          <input placeholder="Description" id="description" id="description" type="text" class="validate">
+          <label for="">Description</label>
         </div>
       </div>
     </form>
   </div>
+</p>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-</p>
 </body>
 </html>

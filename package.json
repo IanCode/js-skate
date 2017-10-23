@@ -4,7 +4,7 @@
   "description": "Making fun things with javascript",
   "main": "index.js",
   "scripts": {
-    "test": "console.log('hey there bucky')"
+    "test": "console.log('hey there bucky')",
     "start": "node index.js"
   },
   "author": "Ian White",
